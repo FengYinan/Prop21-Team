@@ -14,4 +14,3 @@ Some useful links for papers:
 * https://www.urban.org/sites/default/files/publication/99646/rent_control._what_does_the_research_tell_us_about_the_effectiveness_of_local_action_1.pdf
 * https://www.huduser.gov/portal/sites/default/files/pdf/Market-Predictors-of-Homelessness.pdf
 * https://nlchp.org//wp-content/uploads/2018/10/Homeless_Stats_Fact_Sheet.pdf
-* https://escholarship.org/content/qt32z2q3g1/qt32z2q3g1.pdf
