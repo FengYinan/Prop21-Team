@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7929421681f84705975292dbb5e233dc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7929421681f84705975292dbb5e233dc" ></div>
+        
+</body>
+<script>    
+    
+            var map_7929421681f84705975292dbb5e233dc = L.map(
+                "map_7929421681f84705975292dbb5e233dc",
+                {
+                    center: [37.5, -119.417931],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_286d8efba8a74b81a4316fc2e6af1d4b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+            var marker_c986749c791846b9b31b54c9808c30aa = L.marker(
+                [38.581572, -121.4944],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_72e6e3f216ac474eb81bff7cbe9af57e = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_bab72defd107480588bcad17851adf75 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5TYWNyYW1lbnRvPC9iPjxicj4gUmVudCBDb250cm9sIFByb3RlY3Rpb25zICgyMDE5KSA8YnI+IEp1c3QgQ2F1c2UgKDIwMTkp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_72e6e3f216ac474eb81bff7cbe9af57e.setContent(i_frame_bab72defd107480588bcad17851adf75);
+        
+
+        marker_c986749c791846b9b31b54c9808c30aa.bindPopup(popup_72e6e3f216ac474eb81bff7cbe9af57e)
+        ;
+
+        
+    
+    
+            marker_c986749c791846b9b31b54c9808c30aa.bindTooltip(
+                `<div>
+                     Sacramento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42989fc7431f4387979cb06b9a97b570 = L.marker(
+                [37.77493, -122.419416],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_41f46ae560874f3191013060e4066412 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_6ec2186f60e040d180f93453c560fbba = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5TYW4gRnJhbmNpc2NvPC9iPjxicj4gUmVudCBDb250cm9sIFByb3RlY3Rpb25zICgxOTc5KSA8YnI+IEp1c3QgQ2F1c2UgKDE5Nzkp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_41f46ae560874f3191013060e4066412.setContent(i_frame_6ec2186f60e040d180f93453c560fbba);
+        
+
+        marker_42989fc7431f4387979cb06b9a97b570.bindPopup(popup_41f46ae560874f3191013060e4066412)
+        ;
+
+        
+    
+    
+            marker_42989fc7431f4387979cb06b9a97b570.bindTooltip(
+                `<div>
+                     San Francisco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e49c60bd9903493297f342073d023785 = L.marker(
+                [37.804364, -122.271114],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_1c3566043ab1417985e6e4c9633a4695 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_ec712647a52744809f09d244b3badcbf = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5PYWtsYW5kPC9iPjxicj4gUmVudCBDb250cm9sIFByb3RlY3Rpb25zICgyMDAyKSA8YnI+IEp1c3QgQ2F1c2UgKDIwMDMp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_1c3566043ab1417985e6e4c9633a4695.setContent(i_frame_ec712647a52744809f09d244b3badcbf);
+        
+
+        marker_e49c60bd9903493297f342073d023785.bindPopup(popup_1c3566043ab1417985e6e4c9633a4695)
+        ;
+
+        
+    
+    
+            marker_e49c60bd9903493297f342073d023785.bindTooltip(
+                `<div>
+                     Oakland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c49d2becf16491c8aa7a6eef5d27e77 = L.marker(
+                [37.831316, -122.285247],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_ff503545ac004037971f3a22c763d521 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_dd0cba1de628418bb28b668168fb92ce = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5FbWVyeXZpbGxlPC9iPjxicj4gSnVzdCBDYXVzZSAoMjAxNyk=" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_ff503545ac004037971f3a22c763d521.setContent(i_frame_dd0cba1de628418bb28b668168fb92ce);
+        
+
+        marker_0c49d2becf16491c8aa7a6eef5d27e77.bindPopup(popup_ff503545ac004037971f3a22c763d521)
+        ;
+
+        
+    
+    
+            marker_0c49d2becf16491c8aa7a6eef5d27e77.bindTooltip(
+                `<div>
+                     Emeryville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27924111c01f4c7d93de51e89c652971 = L.marker(
+                [37.871593, -122.272747],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_3941feb173874130bd5b878195483f67 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_582029e374904c2a9874087a57514091 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5CZXJrZWxleTwvYj48YnI+IFJlbnQgQ29udHJvbCBQcm90ZWN0aW9ucyAoMTk4MCkgPGJyPiBKdXN0IENhdXNlICgxOTgwKQ==" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_3941feb173874130bd5b878195483f67.setContent(i_frame_582029e374904c2a9874087a57514091);
+        
+
+        marker_27924111c01f4c7d93de51e89c652971.bindPopup(popup_3941feb173874130bd5b878195483f67)
+        ;
+
+        
+    
+    
+            marker_27924111c01f4c7d93de51e89c652971.bindTooltip(
+                `<div>
+                     Berkeley
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_377ef27acbbc473791020a84b338eb52 = L.marker(
+                [37.935758, -122.347749],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_7fc934265dcd4188b99690bfd0af6faa = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_149c217bcaa2435c8b9276ea56bf00aa = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5SaWNobW9uZDwvYj48YnI+IFJlbnQgQ29udHJvbCBQcm90ZWN0aW9ucyAoMjAxNikgPGJyPiBKdXN0IENhdXNlICgyMDE2KQ==" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_7fc934265dcd4188b99690bfd0af6faa.setContent(i_frame_149c217bcaa2435c8b9276ea56bf00aa);
+        
+
+        marker_377ef27acbbc473791020a84b338eb52.bindPopup(popup_7fc934265dcd4188b99690bfd0af6faa)
+        ;
+
+        
+    
+    
+            marker_377ef27acbbc473791020a84b338eb52.bindTooltip(
+                `<div>
+                     Richmond
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_361d15ff2ab04cbeae0307ecdc94c45a = L.marker(
+                [37.765207, -122.241636],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_fd41c032d77b4867a8fc661b0dcbf111 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_926469818a774bcdbd7af3a877dac974 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5BbGFtZWRhPC9iPjxicj4gUmVudCBDb250cm9sIFByb3RlY3Rpb25zICgyMDE5KSA8YnI+IEp1c3QgQ2F1c2UgKDIwMTkp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_fd41c032d77b4867a8fc661b0dcbf111.setContent(i_frame_926469818a774bcdbd7af3a877dac974);
+        
+
+        marker_361d15ff2ab04cbeae0307ecdc94c45a.bindPopup(popup_fd41c032d77b4867a8fc661b0dcbf111)
+        ;
+
+        
+    
+    
+            marker_361d15ff2ab04cbeae0307ecdc94c45a.bindTooltip(
+                `<div>
+                     Alameda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbaa360a596e432ebf1ecd827ce00dd9 = L.marker(
+                [37.668821, -122.080796],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_1866882fe5534523bca815abfae7933f = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_4bee652711b34c3288f6d243fbc68ed9 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5IYXl3YXJkPC9iPjxicj4gUmVudCBDb250cm9sIFByb3RlY3Rpb25zICgxOTgzKSA8YnI+IEp1c3QgQ2F1c2UgKDE5ODMp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_1866882fe5534523bca815abfae7933f.setContent(i_frame_4bee652711b34c3288f6d243fbc68ed9);
+        
+
+        marker_bbaa360a596e432ebf1ecd827ce00dd9.bindPopup(popup_1866882fe5534523bca815abfae7933f)
+        ;
+
+        
+    
+    
+            marker_bbaa360a596e432ebf1ecd827ce00dd9.bindTooltip(
+                `<div>
+                     Hayward
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bba1c5d9a77140bda3281f0b6b9bc0eb = L.marker(
+                [37.593392, -122.04383],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_09b9e55bbf7f4a9f8b48972334a649f0 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_722959411ad6458a984301b003bb29c2 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5VbmlvbiBDaXR5PC9iPjxicj4gSnVzdCBDYXVzZSAoMjAxNyk=" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_09b9e55bbf7f4a9f8b48972334a649f0.setContent(i_frame_722959411ad6458a984301b003bb29c2);
+        
+
+        marker_bba1c5d9a77140bda3281f0b6b9bc0eb.bindPopup(popup_09b9e55bbf7f4a9f8b48972334a649f0)
+        ;
+
+        
+    
+    
+            marker_bba1c5d9a77140bda3281f0b6b9bc0eb.bindTooltip(
+                `<div>
+                     Union City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_473fcf14837840089f8b099a2c2861ac = L.marker(
+                [37.468827, -122.141075],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_f9ea50f54e834ea5800305cbe3367bcb = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_1620da0dd43e4872989041cc44a0deac = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5FYXN0IFBhbG8gQWx0bzwvYj48YnI+IFJlbnQgQ29udHJvbCBQcm90ZWN0aW9ucyAoMTk4OCkgPGJyPiBKdXN0IENhdXNlICgxOTg4KQ==" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_f9ea50f54e834ea5800305cbe3367bcb.setContent(i_frame_1620da0dd43e4872989041cc44a0deac);
+        
+
+        marker_473fcf14837840089f8b099a2c2861ac.bindPopup(popup_f9ea50f54e834ea5800305cbe3367bcb)
+        ;
+
+        
+    
+    
+            marker_473fcf14837840089f8b099a2c2861ac.bindTooltip(
+                `<div>
+                     East Palo Alto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dca3838056e4320a2dcb21fe518e2dc = L.marker(
+                [37.386052, -122.083851],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_6efda1fd2f1e49d9b2855a284c4c5b1b = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_89ede0bb24644f26a3a7bb8a5204b824 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5Nb3VudGFpbiBWaWV3PC9iPjxicj4gUmVudCBDb250cm9sIFByb3RlY3Rpb25zICgyMDE3KSA8YnI+IEp1c3QgQ2F1c2UgKDIwMTcp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_6efda1fd2f1e49d9b2855a284c4c5b1b.setContent(i_frame_89ede0bb24644f26a3a7bb8a5204b824);
+        
+
+        marker_9dca3838056e4320a2dcb21fe518e2dc.bindPopup(popup_6efda1fd2f1e49d9b2855a284c4c5b1b)
+        ;
+
+        
+    
+    
+            marker_9dca3838056e4320a2dcb21fe518e2dc.bindTooltip(
+                `<div>
+                     Mountain View
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_631594767a6f4532beaf59e7a360a959 = L.marker(
+                [37.235808, -121.962375],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_751981ebf654489b8b0d1f2b84e50fa7 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_977723e171eb45ac9b5261bf6d1709a9 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5Mb3MgR2F0b3M8L2I+PGJyPiBSZW50IENvbnRyb2wgUHJvdGVjdGlvbnMgKDIwMDQp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_751981ebf654489b8b0d1f2b84e50fa7.setContent(i_frame_977723e171eb45ac9b5261bf6d1709a9);
+        
+
+        marker_631594767a6f4532beaf59e7a360a959.bindPopup(popup_751981ebf654489b8b0d1f2b84e50fa7)
+        ;
+
+        
+    
+    
+            marker_631594767a6f4532beaf59e7a360a959.bindTooltip(
+                `<div>
+                     Los Gatos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46f185bb552947eb9550b9f062920dd6 = L.marker(
+                [37.338208, -121.886329],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_18ea8ac2a9524075989e681d5c146843 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_4c8a7f918f3e438bb5da4935ceb0fb87 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5TYW4gSm9zZTwvYj48YnI+IFJlbnQgQ29udHJvbCBQcm90ZWN0aW9ucyAoMTk3OSkgPGJyPiBKdXN0IENhdXNlICgyMDE3KQ==" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_18ea8ac2a9524075989e681d5c146843.setContent(i_frame_4c8a7f918f3e438bb5da4935ceb0fb87);
+        
+
+        marker_46f185bb552947eb9550b9f062920dd6.bindPopup(popup_18ea8ac2a9524075989e681d5c146843)
+        ;
+
+        
+    
+    
+            marker_46f185bb552947eb9550b9f062920dd6.bindTooltip(
+                `<div>
+                     San Jose
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92bdce5ba8fc49d49cc7696c1ec58dae = L.marker(
+                [34.052234, -118.243685],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_0b2118eb3756491a8c854c9a591badc8 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_de9db56d935b408d91141373ab7d6477 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5Mb3MgQW5nZWxlczwvYj48YnI+IFJlbnQgQ29udHJvbCBQcm90ZWN0aW9ucyAoMTk3OSkgPGJyPiBKdXN0IENhdXNlICgxOTc5KQ==" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_0b2118eb3756491a8c854c9a591badc8.setContent(i_frame_de9db56d935b408d91141373ab7d6477);
+        
+
+        marker_92bdce5ba8fc49d49cc7696c1ec58dae.bindPopup(popup_0b2118eb3756491a8c854c9a591badc8)
+        ;
+
+        
+    
+    
+            marker_92bdce5ba8fc49d49cc7696c1ec58dae.bindTooltip(
+                `<div>
+                     Los Angeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a3592f0f6ee4c3b8d79005f2240c73f = L.marker(
+                [34.316218, -118.013741],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_bd2a70a954874168a6f39cc4b89adafe = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_1167c54b82bc461391bf2a755acb9e0a = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5VbmluY29ycG9yYXRlZCBMQSBDb3VudHk8L2I+PGJyPiBSZW50IENvbnRyb2wgUHJvdGVjdGlvbnMgKDIwMjApIDxicj4gSnVzdCBDYXVzZSAoMjAyMCk=" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_bd2a70a954874168a6f39cc4b89adafe.setContent(i_frame_1167c54b82bc461391bf2a755acb9e0a);
+        
+
+        marker_8a3592f0f6ee4c3b8d79005f2240c73f.bindPopup(popup_bd2a70a954874168a6f39cc4b89adafe)
+        ;
+
+        
+    
+    
+            marker_8a3592f0f6ee4c3b8d79005f2240c73f.bindTooltip(
+                `<div>
+                     Unincorporated Los Angeles County
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4fd67da005a45e49851ced115434ea2 = L.marker(
+                [34.170561, -118.837594],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_820e027efde44d8eae21901aa98a58b7 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_fff6e73d26d54ce4a7ef021a05365a34 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5UaG91c2FuZHMgT2FrczwvYj48YnI+IExpbWl0ZWQgUmVudCBDb250cm9sIFByb3RlY3Rpb25zIChBcHJveC4gMTk4MCk=" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_820e027efde44d8eae21901aa98a58b7.setContent(i_frame_fff6e73d26d54ce4a7ef021a05365a34);
+        
+
+        marker_c4fd67da005a45e49851ced115434ea2.bindPopup(popup_820e027efde44d8eae21901aa98a58b7)
+        ;
+
+        
+    
+    
+            marker_c4fd67da005a45e49851ced115434ea2.bindTooltip(
+                `<div>
+                     Thousands Oaks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5a4978f63b545a681e79a24c1f7344d = L.marker(
+                [34.142508, -118.255075],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_003eb5e287fa453f86f3157c2863df90 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_717cd653fdba4bfcabbc6ccac1afaaf0 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5HbGVuZGFsZTwvYj48YnI+IEp1c3QgQ2F1c2UgKDE5OTUp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_003eb5e287fa453f86f3157c2863df90.setContent(i_frame_717cd653fdba4bfcabbc6ccac1afaaf0);
+        
+
+        marker_b5a4978f63b545a681e79a24c1f7344d.bindPopup(popup_003eb5e287fa453f86f3157c2863df90)
+        ;
+
+        
+    
+    
+            marker_b5a4978f63b545a681e79a24c1f7344d.bindTooltip(
+                `<div>
+                     Glendale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77564074641a4fee8eee4e35bc255eed = L.marker(
+                [34.090009, -118.361744],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_454e9d308ae84cccbcbf3a6081046bc6 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_b08b74719275405791c14a90083d8bce = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5XZXN0IEhvbGx5d29vZDwvYj48YnI+IFJlbnQgQ29udHJvbCBQcm90ZWN0aW9ucyAoMTk4MCkgPGJyPiBKdXN0IENhdXNlICgxOTg1KQ==" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_454e9d308ae84cccbcbf3a6081046bc6.setContent(i_frame_b08b74719275405791c14a90083d8bce);
+        
+
+        marker_77564074641a4fee8eee4e35bc255eed.bindPopup(popup_454e9d308ae84cccbcbf3a6081046bc6)
+        ;
+
+        
+    
+    
+            marker_77564074641a4fee8eee4e35bc255eed.bindTooltip(
+                `<div>
+                     West Hollywood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb9c8a14f88244f28d07ebda0a914f19 = L.marker(
+                [34.07362, -118.400356],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_c6a1acd6e9824b8f835c9e5320738edb = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_1bb9541ceb6e4938b2cf23c6831d9fb4 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5CZXZlcmx5IEhpbGxzPC9iPjxicj4gUmVudCBDb250cm9sIFByb3RlY3Rpb25zICgxOTc4KSA8YnI+IEp1c3QgQ2F1c2UgKDE5Nzgp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_c6a1acd6e9824b8f835c9e5320738edb.setContent(i_frame_1bb9541ceb6e4938b2cf23c6831d9fb4);
+        
+
+        marker_cb9c8a14f88244f28d07ebda0a914f19.bindPopup(popup_c6a1acd6e9824b8f835c9e5320738edb)
+        ;
+
+        
+    
+    
+            marker_cb9c8a14f88244f28d07ebda0a914f19.bindTooltip(
+                `<div>
+                     Beverly Hills
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0791d79574cf4a198d588b17f2c7679c = L.marker(
+                [34.019454, -118.491191],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_6555cc2e4bce4e19b9798a0f88cb1930 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_8585f9f787b74d5f96226d449cf4d5af = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5TYW50YSBNb25pY2E8L2I+PGJyPiBSZW50IENvbnRyb2wgUHJvdGVjdGlvbnMgKDE5NzkpIDxicj4gSnVzdCBDYXVzZSAoMTk3OSk=" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_6555cc2e4bce4e19b9798a0f88cb1930.setContent(i_frame_8585f9f787b74d5f96226d449cf4d5af);
+        
+
+        marker_0791d79574cf4a198d588b17f2c7679c.bindPopup(popup_6555cc2e4bce4e19b9798a0f88cb1930)
+        ;
+
+        
+    
+    
+            marker_0791d79574cf4a198d588b17f2c7679c.bindTooltip(
+                `<div>
+                     Santa Monica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73199ec91a944c31b9578c970a63f43e = L.marker(
+                [33.96168, -118.353131],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_c2f04c9abca2412b989140f01396f221 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_7f48c605569d435cadc634dbfe5f7e46 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5JbmdsZXdvb2Q8L2I+PGJyPiBSZW50IENvbnRyb2wgUHJvdGVjdGlvbnMgKDIwMTkpIDxicj4gSnVzdCBDYXVzZSAoMjAxOSk=" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_c2f04c9abca2412b989140f01396f221.setContent(i_frame_7f48c605569d435cadc634dbfe5f7e46);
+        
+
+        marker_73199ec91a944c31b9578c970a63f43e.bindPopup(popup_c2f04c9abca2412b989140f01396f221)
+        ;
+
+        
+    
+    
+            marker_73199ec91a944c31b9578c970a63f43e.bindTooltip(
+                `<div>
+                     Inglewood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6dba8f28ddc6463d8ce0357d92239d3d = L.marker(
+                [33.888349, -118.308962],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_4b96051a26de4b08bf8c8c2ddd29c49a = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_97ebdd2791cc4cef82cb39d6e7fd899c = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5HYXJkZW5hPC9iPjxicj4gUmVudCBJbmNyZWFzZSBNZWRpYXRpb24gKDE5ODcp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_4b96051a26de4b08bf8c8c2ddd29c49a.setContent(i_frame_97ebdd2791cc4cef82cb39d6e7fd899c);
+        
+
+        marker_6dba8f28ddc6463d8ce0357d92239d3d.bindPopup(popup_4b96051a26de4b08bf8c8c2ddd29c49a)
+        ;
+
+        
+    
+    
+            marker_6dba8f28ddc6463d8ce0357d92239d3d.bindTooltip(
+                `<div>
+                     Gardena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db59f3dfcb5f4ec28ef706ca3a2030e7 = L.marker(
+                [33.994289, -118.189041],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_a1e0c129edb74cef9a31f51a65b1c8a6 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_8cc3e6549c214a32b00b31dac22c4974 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5NYXl3b29kbzwvYj48YnI+IEp1c3QgQ2F1c2UgKDIwMDgp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_a1e0c129edb74cef9a31f51a65b1c8a6.setContent(i_frame_8cc3e6549c214a32b00b31dac22c4974);
+        
+
+        marker_db59f3dfcb5f4ec28ef706ca3a2030e7.bindPopup(popup_a1e0c129edb74cef9a31f51a65b1c8a6)
+        ;
+
+        
+    
+    
+            marker_db59f3dfcb5f4ec28ef706ca3a2030e7.bindTooltip(
+                `<div>
+                     Maywood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca95c9411c7f4c6fb9e6c424fe8e9b26 = L.marker(
+                [33.830296, -116.545296],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_890ce60b885245138f29d162cb20b2f8 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_4e4028989b154569862f8a148c9f2d85 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5QYWxtIFNwcmluZ3M8L2I+PGJyPiBSZW50IENvbnRyb2wgUHJvdGVjdGlvbnMgKDE5ODAp" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_890ce60b885245138f29d162cb20b2f8.setContent(i_frame_4e4028989b154569862f8a148c9f2d85);
+        
+
+        marker_ca95c9411c7f4c6fb9e6c424fe8e9b26.bindPopup(popup_890ce60b885245138f29d162cb20b2f8)
+        ;
+
+        
+    
+    
+            marker_ca95c9411c7f4c6fb9e6c424fe8e9b26.bindTooltip(
+                `<div>
+                     Palm Springs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f84af266dfe7414dae638ccaff19c736 = L.marker(
+                [32.715736, -117.161087],
+                {}
+            ).addTo(map_7929421681f84705975292dbb5e233dc);
+        
+    
+        var popup_2e913cfe2eaf489aa706ea890d98ceef = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_234a28f9091d448b930a1054dba85553 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8Yj5TYW4gRGllZ288L2I+PGJyPiBKdXN0IENhdXNlICgyMDA0KQ==" width="250" style="border:none !important;" height="75"></iframe>`)[0];
+            popup_2e913cfe2eaf489aa706ea890d98ceef.setContent(i_frame_234a28f9091d448b930a1054dba85553);
+        
+
+        marker_f84af266dfe7414dae638ccaff19c736.bindPopup(popup_2e913cfe2eaf489aa706ea890d98ceef)
+        ;
+
+        
+    
+    
+            marker_f84af266dfe7414dae638ccaff19c736.bindTooltip(
+                `<div>
+                     San Diego
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
