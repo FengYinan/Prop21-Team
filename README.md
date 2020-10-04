@@ -31,11 +31,43 @@ We found that 25 Municipalities in California have Rent Control and/or Just Caus
 
 More details can be found in our [Rent Control Map](https://fengyinan.github.io/Prop21-Team/Rent_Control_Map.html).
 
-### Significant socio-demographic attributes 
+### Significant and other socio-demographic attributes 
+
 
 ## Modeling
 
+Rent has a high linear relation with income, based on correlation coefficient, and most Rent control policies are by cities with large population.
+
+<img src='https://github.com/FengYinan/Prop21-Team/blob/master/image/scatter%20plot.png' width = 400> 
+
+Rent control laws do not have significant effect on the rent increasing rate. 
+Income increasing rate, time, and inflation rate have significant effect on rent increasing rate.
+
+<img src='https://github.com/FengYinan/Prop21-Team/blob/master/image/Model%20results.png' width = 400>
+
 ## Conclusions
+<b> Data  </b>
+* Most cities have no rent control.
+* Both median household income and median rent have accelerated increase in the past decade.
+* Marin County has the highest average family income and does not have the highest rent.
+* Counties with high rent are mostly occupied by White and Asian populations.
+* Rent has high linear relation with income.
+* Most Rent control policies are by cities with large population.
+* Middle-income people spend less than 30% of their income on rent, and this proportion has been declining in the past 8 years.
+
+<b> Modeling </b>
+
+Rent control laws do not have significant effect on the rent increasing rate.
+Income, time, and inflation rate have significant effect on rent increasing rate.
+
+<b> Limitation </b>
+
+Median income and rent cannot reflect the situation of low income people.
+
+<b> Further work </b>
+
+To analyze different model types, and check model accuracy.
+
 
 ## Contributors
 Yunan Hou, Master's Student, Biostatistics, UC Davis, ynhou@ucdavis.edu
