@@ -38,10 +38,10 @@ More details can be found in our [Rent Control Map](https://fengyinan.github.io/
 ## Conclusions
 
 ## Contributors
-Yunan Hou, ynhou@ucdavis.edu
+Yunan Hou, Master's Student, Biostatistics, UC Davis, ynhou@ucdavis.edu
 
-Yinan Fang, 
+Yinan Fang, Master's Student, Computer Science , The University of Virginia, yf7da@virginia.edu
 
-Stella Dong, PhD Candidate, Applied Mathmatics, scdong@ucdavis.edu
+Stella Dong, PhD Candidate, Applied Mathematics, scdong@ucdavis.edu
 
 Koral Buch, PhD Student, Transportation Technology and Policy, kbuch@ucdavis.edu
