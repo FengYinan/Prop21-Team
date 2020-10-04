@@ -10,19 +10,13 @@ This project explores Proposition 21 - Rental Affordability Act, and in particul
 
 ## Data Sources
 
-<b> Proposition 21: </b> https://ballotpedia.org/California_Proposition_21,_Local_Rent_Control_Initiative_(2020)
-
-<b> AB 1482: </b> https://sfrb.org/article/summary-ab-1482-california-tenant-protection-act-2019
-
-<b> Prop. 21 VS AB 1482: </b> https://noonprop21.vote/wp-content/uploads/2020/07/HousingFreeze_FactSheets_4-Comparison_v5.pdf
-
-<b> Local Rent Control Law: </b> https://www.tenantstogether.org/resources/list-rent-control-ordinances-city
-
-<b> American Community Survey: </b> http://www.dof.ca.gov/Reports/Demographic_Reports/American_Community_Survey/
-
-<b> Home ownership rate: </b> https://www.ocregister.com/2019/02/28/californias-homeownership-rate-hits-8-year-high/
-
-<b> Inflation Rate: </b> https://www.usinflationcalculator.com/inflation/current-inflation-rates/
+* <b> Proposition 21: </b> https://ballotpedia.org/California_Proposition_21,_Local_Rent_Control_Initiative_(2020)
+* <b> AB 1482: </b> https://sfrb.org/article/summary-ab-1482-california-tenant-protection-act-2019
+* <b> Prop. 21 VS AB 1482: </b> https://noonprop21.vote/wp-content/uploads/2020/07/HousingFreeze_FactSheets_4-Comparison_v5.pdf
+* <b> Local Rent Control Law: </b> https://www.tenantstogether.org/resources/list-rent-control-ordinances-city
+* <b> American Community Survey: </b> http://www.dof.ca.gov/Reports/Demographic_Reports/American_Community_Survey/
+* <b> Home ownership rate: </b> https://www.ocregister.com/2019/02/28/californias-homeownership-rate-hits-8-year-high/
+* <b> Inflation Rate: </b> https://www.usinflationcalculator.com/inflation/current-inflation-rates/
 
 ## Directory
 1. [raw data](https://github.com/FengYinan/Prop21-Team/tree/master/raw%20data) - Raw data as downloaded from the American Community Survey
@@ -35,7 +29,7 @@ This project explores Proposition 21 - Rental Affordability Act, and in particul
 ### Current rent control law status
 We found that 25 Municipalities in California have Rent Control and/or Just Cause laws.
 
-More details can be found in our [Rent Control Map](https://fengyinan.github.io/Prop21-Team/Rent_Control_Map.html)
+More details can be found in our [Rent Control Map](https://fengyinan.github.io/Prop21-Team/Rent_Control_Map.html).
 
 ### Significant socio-demographic attributes 
 
