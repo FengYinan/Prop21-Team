@@ -32,13 +32,19 @@ We found that 25 Municipalities in California have Rent Control and/or Just Caus
 More details can be found in our [Rent Control Map](https://fengyinan.github.io/Prop21-Team/Rent_Control_Map.html).
 
 ### Significant and other socio-demographic attributes 
+There are four levels of rent control. From the pie chart, we can see that most cites are under level 4, meaning that most cities do not have rent control.
 
+<img src='https://github.com/FengYinan/Prop21-Team/blob/master/image/Pie%20Chart%20of%20Rent%20Control.png' width = 500>
+
+From plotting 10 counties with the highest median family income, we can see that Marin county has the highest average median family income. However, it does not have the highest rent. In fact, the county with the highest rent is San Meteo County
+
+<img src='https://github.com/FengYinan/Prop21-Team/blob/master/image/income_rent_bar.png width' = 500>
 
 ## Modeling
 
 Rent has a high linear relation with income, based on correlation coefficient, and most Rent control policies are by cities with large population.
 
-<img src='https://github.com/FengYinan/Prop21-Team/blob/master/image/scatter%20plot.png' width = 400> 
+<img src='https://github.com/FengYinan/Prop21-Team/blob/master/image/scatter%20plot.png' width = 500> 
 
 Rent control laws do not have significant effect on the rent increasing rate. 
 Income increasing rate, time, and inflation rate have significant effect on rent increasing rate.
