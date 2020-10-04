@@ -1,20 +1,12 @@
 # Rent Control 21 - Proposition 21
 
-Please share everything you think it is helpful.
+## Objective
+This project was prepared for the CA Election Data Challenge, organized by UC Davis DataLab, and was submitted on October 2020.
 
-Some useful links for data colloction:
-* https://data.ca.gov/
-* https://data.sfgov.org/Housing-and-Buildings/Buyout-agreements/wmam-7g8d
-* https://ballotpedia.org/California_Proposition_21,_Local_Rent_Control_Initiative_(2020)
-* https://www.hudexchange.info/programs/coc/coc-homeless-populations-and-subpopulations-reports/
-* https://www.census.gov/programs-surveys/acs
-
-
-Some useful links for papers:
-* https://www.urban.org/sites/default/files/publication/99646/rent_control._what_does_the_research_tell_us_about_the_effectiveness_of_local_action_1.pdf
-* https://www.huduser.gov/portal/sites/default/files/pdf/Market-Predictors-of-Homelessness.pdf
-* https://nlchp.org//wp-content/uploads/2018/10/Homeless_Stats_Fact_Sheet.pdf
-
+This project explores Proposition 21 - Rental Affordability Act, and in particular, intended to answer the following research questions:
+* What and where are the current local rent control laws in California?
+* What are the socio-demographic attributes related to rent increasing rate?
+* Do local rent control laws have significant effect on the rent increasing rate?
 
 ## Data Sources
 
@@ -32,6 +24,24 @@ Some useful links for papers:
 
 <b> Inflation Rate: </b> https://www.usinflationcalculator.com/inflation/current-inflation-rates/
 
+## Directory
+1. [raw data](https://github.com/FengYinan/Prop21-Team/tree/master/raw%20data) - Raw data as downloaded from the American Community Survey
+2. [clean data](https://github.com/FengYinan/Prop21-Team/tree/master/clean%20data) - Clean data
+3. [code](https://github.com/FengYinan/Prop21-Team/tree/master/code) - All code files, both for visualizing and modeling
+4. [image](https://github.com/FengYinan/Prop21-Team/tree/master/image) - Output image files
+5. [docs](https://github.com/FengYinan/Prop21-Team/tree/master/docs) - Output web files
+
+## Data Visualization
+### Current rent control law status
+We found that 25 Municipalities in California have Rent Control and/or Just Cause laws.
+
+More details can be found in our [Rent Control Map](https://fengyinan.github.io/Prop21-Team/Rent_Control_Map.html)
+
+### Significant socio-demographic attributes 
+
+## Modeling
+
+## Conclusions
 
 ## Contributors
 Yunan Hou, ynhou@ucdavis.edu
