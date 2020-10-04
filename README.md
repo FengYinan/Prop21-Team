@@ -14,3 +14,22 @@ Some useful links for papers:
 * https://www.urban.org/sites/default/files/publication/99646/rent_control._what_does_the_research_tell_us_about_the_effectiveness_of_local_action_1.pdf
 * https://www.huduser.gov/portal/sites/default/files/pdf/Market-Predictors-of-Homelessness.pdf
 * https://nlchp.org//wp-content/uploads/2018/10/Homeless_Stats_Fact_Sheet.pdf
+
+
+## Data Sources
+
+<b> Local Rent Control Law: </b> https://www.tenantstogether.org/resources/list-rent-control-ordinances-city
+
+
+
+<b> Inflation Rate: </b> https://www.usinflationcalculator.com/inflation/current-inflation-rates/
+
+
+## Contributors
+Yunan Hou, ynhou@ucdavis.edu
+
+Yinan Fang, 
+
+Stella Dong, PhD. Candidate, Applied Mathmatics, scdong@ucdavis.edu
+
+Koral Buch, PhD Student, Transportation Technology and Policy, kbuch@ucdavis.edu
