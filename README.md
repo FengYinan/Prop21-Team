@@ -31,7 +31,7 @@ We found that 25 Municipalities in California have Rent Control and/or Just Caus
 
 More details can be found in our [Rent Control Map](https://fengyinan.github.io/Prop21-Team/Rent_Control_Map.html).
 
-### Significant and other socio-demographic attributes 
+### Socio-demographic attributes snapshots
 There are four levels of rent control. From the pie chart, we can see that most cites are under level 4, meaning that most cities do not have rent control.
 
 <img src='https://github.com/FengYinan/Prop21-Team/blob/master/image/Pie%20Chart%20of%20Rent%20Control.png' width = 500>
@@ -39,6 +39,10 @@ There are four levels of rent control. From the pie chart, we can see that most 
 From plotting 10 counties with the highest median family income, we can see that Marin county has the highest average median family income. However, it does not have the highest rent. In fact, the county with the highest rent is San Meteo County
 
 <img src='https://github.com/FengYinan/Prop21-Team/blob/master/image/income_rent_bar.png' width = 500>
+
+Here we see that Marin county is mostly occupied by White population. San Mateo, Santa Clara, and Orange Counties, counties with highest rent, are mostly occupied by White and Asian populations.
+
+<img src='https://github.com/FengYinan/Prop21-Team/blob/master/image/race_bar.png' width = 500>
 
 ## Modeling
 
@@ -53,13 +57,11 @@ Income increasing rate, time, and inflation rate have significant effect on rent
 
 ## Conclusions
 <b> Data  </b>
-* Most cities have no rent control.
-* Both median household income and median rent have accelerated increase in the past decade.
+* Most cities have no rent control laws.
 * Marin County has the highest average family income and does not have the highest rent.
 * Counties with high rent are mostly occupied by White and Asian populations.
 * Rent has high linear relation with income.
 * Most Rent control policies are by cities with large population.
-* Middle-income people spend less than 30% of their income on rent, and this proportion has been declining in the past 8 years.
 
 <b> Modeling </b>
 
