@@ -38,7 +38,7 @@ There are four levels of rent control. From the pie chart, we can see that most 
 
 From plotting 10 counties with the highest median family income, we can see that Marin county has the highest average median family income. However, it does not have the highest rent. In fact, the county with the highest rent is San Meteo County
 
-<img src='https://github.com/FengYinan/Prop21-Team/blob/master/image/income_rent_bar.png width' = 500>
+<img src='https://github.com/FengYinan/Prop21-Team/blob/master/image/income_rent_bar.png' width = 500>
 
 ## Modeling
 
